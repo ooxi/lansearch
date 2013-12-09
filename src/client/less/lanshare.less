@@ -1,0 +1,80 @@
+/**
+ * Copyright (c) 2013 github.com/ooxi
+ * 
+ * This software is provided 'as-is', without any express or implied warranty.
+ * In no event will the authors be held liable for any damages arising from the
+ * use of this software.
+ * 
+ * Permission is granted to anyone to use this software for any purpose,
+ * including commercial applications, and to alter it and redistribute it
+ * freely, subject to the following restrictions:
+ * 
+ *  1. The origin of this software must not be misrepresented; you must not
+ *     claim that you wrote the original software. If you use this software in a
+ *     product, an acknowledgment in the product documentation would be
+ *     appreciated but is not required.
+ * 
+ *  2. Altered source versions must be plainly marked as such, and must not be
+ *     misrepresented as being the original software.
+ * 
+ *  3. This notice may not be removed or altered from any source distribution.
+ */
+@BOOTSTRAP_DIRECTORY: '../../../lib/bootstrap/less';
+
+
+// Overwrite certain variables
+@import '@{BOOTSTRAP_DIRECTORY}/variables.less';
+@icon-font-path: '//netdna.bootstrapcdn.com/bootstrap/3.0.3/fonts/';
+
+// Core mixins
+@import '@{BOOTSTRAP_DIRECTORY}/mixins.less';
+
+// Reset
+@import '@{BOOTSTRAP_DIRECTORY}/normalize.less';
+@import '@{BOOTSTRAP_DIRECTORY}/print.less';
+
+// Core CSS
+@import '@{BOOTSTRAP_DIRECTORY}/scaffolding.less';
+@import '@{BOOTSTRAP_DIRECTORY}/type.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/code.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/grid.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/tables.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/forms.less';
+@import '@{BOOTSTRAP_DIRECTORY}/buttons.less';
+
+// Components
+//@import '@{BOOTSTRAP_DIRECTORY}/component-animations.less';
+@import '@{BOOTSTRAP_DIRECTORY}/glyphicons.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/dropdowns.less';
+@import '@{BOOTSTRAP_DIRECTORY}/button-groups.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/input-groups.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/navs.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/navbar.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/breadcrumbs.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/pagination.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/pager.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/labels.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/badges.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/jumbotron.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/thumbnails.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/alerts.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/progress-bars.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/media.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/list-group.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/panels.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/wells.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/close.less';
+
+// Components w/ JavaScript
+//@import '@{BOOTSTRAP_DIRECTORY}/modals.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/tooltip.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/popovers.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/carousel.less';
+
+// Utility classes
+//@import '@{BOOTSTRAP_DIRECTORY}/utilities.less';
+//@import '@{BOOTSTRAP_DIRECTORY}/responsive-utilities.less';
+
+
+// lanshare specific styles
+@import 'common.less';

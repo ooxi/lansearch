@@ -1,0 +1,17 @@
+{	"name":		"lansearch",
+	"version":	"0.1.0",
+	"author":	"ooxi <violetland@mail.ru>",
+	"description":	"Simple search tool for LAN environments",
+	
+	"dependencies":	{
+		"async":	"0.2.9",
+		"escape-html":	"1.0.0",
+		"fs-extra":	"0.8.1",
+		"humanize":	"0.0.9",
+		"jsftp":	"1.2.1",
+		"less":		"1.5.1",
+		"optimist":	"0.6.0",
+		"requirejs":	"2.1.9",
+		"tmp":		"0.0.23"
+	}
+}
